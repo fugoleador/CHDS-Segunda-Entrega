@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    background-color: #FAAA32;
+}
+
+.imagen_principal {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_principal img {
+    border-radius: 40px;
+}
+
+footer {
+    display: flex;
+    background-color: #0FB9FF;
+}
+
+footer div {
+    width: 80%;
+    font-size: 20px;
+}
+
+.redes_sociales {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+i {
+    font-size: 40px;
+}
+
+.yoga_flex {
+    display: flex;
+}
+
+.yoga_flex div {
+    width: 40%;
+}
+
+.meditacion_flex {
+    display: flex;
+}
+
+.imagen_yogui {
+    size: 50px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fundador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundador img {
+    width: 30%;
+}
+
+.texto_fundador {
+    text-align: center;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
