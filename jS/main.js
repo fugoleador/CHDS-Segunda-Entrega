@@ -84,7 +84,7 @@ let clasesDisponibles;
 do {
     clasesDisponibles = prompt("Que marca deseas?\n1) Yoga\n2) Meditacion\n3) Functional\n4) Combo completo")
     var prodBuscado = arrProductos.find(producto => producto.id == clasesDisponibles)
-    alert("El precio de tu producto es de " + prodBuscado.precio + "Gracias por tu compra!!")
+    alert("El precio de tu producto es de " + prodBuscado.precio + " Gracias por tu compra!!")
 } while (clasesDisponibles < 1 || clasesDisponibles > 4)
 
 
